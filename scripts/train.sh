@@ -1,5 +1,5 @@
 #!/bin/bash
-# run these commands from the root (predict-ih-review/)
+# run these commands from the root (icml-2026-32900/)
 
 # Experiment 1
 # train on natural data

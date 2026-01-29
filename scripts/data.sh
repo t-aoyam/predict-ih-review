@@ -1,5 +1,5 @@
 #!/bin/bash
-# run these commands from the root (predict-ih-review/)
+# run these commands from the root (icml-2026-32900/)
 
 # Experiment 2
 # generate a P(AB...A) = P(B|AB...A) = 90% data using natural transition matrix
