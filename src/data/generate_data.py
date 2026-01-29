@@ -1,4 +1,4 @@
-from data_generator import DataGenerator
+from src.data.data_generator import DataGenerator
 import argparse
 
 def main():
@@ -49,4 +49,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
