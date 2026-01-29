@@ -37,7 +37,7 @@ icml-2026-32900/
 │   └─ model-name
 │        └─ checkpoint-xxx/
 │
-└─ data/                        # data for pretraining, evaluation, human eye-tracking/self-paced reading data, etc.
+└─ data/                        # data for pretraining, evaluation
     ├─ configs/                 # .json configs for training
     └─ .../                     # all other result files
 ```
