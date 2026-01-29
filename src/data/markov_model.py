@@ -3,7 +3,7 @@ import random
 import torch, os, pickle
 import matplotlib.pyplot as plt
 import seaborn as sns
-from groupiness_loss import GroupinessLoss
+from src.data.groupiness_loss import GroupinessLoss
 from scipy.stats import kstest
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
@@ -464,3 +464,4 @@ if __name__ == "__main__":
 # mm = MarkovModel(vocab_size=9999, seed=1, target_dist_shape='zipfian')
 # mm.load('data\\cc100_v10000_100M_bigram_tensor.pkl')
 # -torch.sum(torch.log2(mm.token_transition_matrix+1e-6) * mm.token_transition_matrix, axis=1) @ mm.token_distribution
+
