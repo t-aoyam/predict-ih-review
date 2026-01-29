@@ -126,7 +126,7 @@ if __name__ == "__main__":
 
     if use_wandb:
         import wandb
-        wandb.init(name=model_name, project="predict-ih", entity="t-aoyam")
+        wandb.init(name=model_name, project="[PROJECT_NAME]", entity="USER_NAME")
         report_to = 'wandb'
     else:
         print('not using wandb')
@@ -145,4 +145,5 @@ if __name__ == "__main__":
         device=device,
         report_to=report_to,
         smooth=smooth
+
     )
