@@ -3,15 +3,15 @@ This is a repo for a paper under submission "Predicting the Emergence of Inducti
 ## Setting up the Environment
 
 ```
-$ conda create -n predict-ih python=3.8
-$ conda activate predict-ih
+$ conda create -n env-name python=3.9
+$ conda activate env-name
 $ pip install -r requirements.txt
 ```
 
 ## Repo Structure
 
 ```
-predict-ih-review/
+icml-2026-32900/
 │  README.md
 │  .gitignore
 │
