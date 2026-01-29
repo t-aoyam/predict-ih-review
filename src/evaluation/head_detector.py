@@ -1,15 +1,3 @@
-"""
-Author: Anonymous
-Given a model, either (1) print the prefix matching score of all heads or
-                      (2) print the index of the heads that have a higher score than a given threshold t
-Prefix matching score:
-Given a repeated random sequence of size s, at position s+i (i < s),
-compute a given head's average attention paid to i+1 (same token as the current position's next token)
-
-Logit attribution:
-Not implemented yet
-"""
-
 import os
 os.environ['HF_HOME'] = '../data/hf_models/'
 import pathlib, argparse, torch, einops, re, json, gc
