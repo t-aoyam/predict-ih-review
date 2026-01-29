@@ -1,5 +1,5 @@
 """
-Author: Tatsuya
+Author: Anonymous
 Given a model, either (1) print the prefix matching score of all heads or
                       (2) print the index of the heads that have a higher score than a given threshold t
 Prefix matching score:
@@ -362,4 +362,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
