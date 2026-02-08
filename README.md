@@ -1,4 +1,4 @@
-This is a repo for a paper under submission "Predicting the Emergence of Induction Heads in Language Model Pretraining"
+This is a repo for the paper "Predicting the Emergence of Induction Heads in Language Model Pretraining"
 
 ## Setting up the Environment
 
