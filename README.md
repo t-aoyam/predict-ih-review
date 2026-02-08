@@ -11,7 +11,7 @@ $ pip install -r requirements.txt
 ## Repo Structure
 
 ```
-icml-2026-32900/
+this-repo/
 │  README.md
 │  .gitignore
 │

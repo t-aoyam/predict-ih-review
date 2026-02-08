@@ -1,5 +1,5 @@
 #!/bin/bash
-# run these commands from the root (icml-2026-32900/)
+# run these commands from the root (this-repo/)
 
 # Experiment 1
 # train on natural data
